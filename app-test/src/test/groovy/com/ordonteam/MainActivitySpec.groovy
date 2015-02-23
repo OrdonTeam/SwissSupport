@@ -10,6 +10,6 @@ class MainActivitySpec extends RoboSpecification {
         MainActivity activity = Robolectric.buildActivity(MainActivity.class).create().get()
 
         expect:
-        activity.text.getText().toString() == 'Hello Groovy'
+        activity.text != null
     }
 }

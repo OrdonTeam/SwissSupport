@@ -37,4 +37,5 @@ dependencies {
     compile('org.codehaus.groovy:groovy-json:2.4.0') {
         transitive = false
     }
+    compile 'com.arasthel:swissknife:1.2.2'
 }
